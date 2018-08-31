@@ -17,6 +17,12 @@ body {
   padding: 20px;
 }
 
+.navigation li a{
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
 .navigation  li.logo {
   color: black;
   font-size: 18px;
@@ -25,7 +31,7 @@ body {
 }
 
 #banner {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/10/08/47/code-2620118_960_720.jpg");
   background-size: cover;
   background-position: bottom center;
   height: 700px;
@@ -81,40 +87,3 @@ p {
   padding: 10px 20px;
 }
 
-.pull-quote {
-  margin: 0 auto;
-  width: 400px;
-}
-
-.byline {
-  border-bottom: 1px solid LightGrey;
-  border-top: 1px solid LightGrey;
-  color: DarkGrey;
-  font-size: 14px;
-  font-weight: 200;
-}
-
-.share {
-  border: 1px solid LightGrey;
-  padding: 40px 0px;
-  position: relative;
-  text-align: center;
-  width: 100%;
-}
-
-.share a {
-  background: red;
-  border: 1px solid red;
-  border-radius: 3px;
-  color: white;
-  display: inline-block;
-  margin: 10px;
-  padding: 14px;
-  text-decoration: none;
-}
-
-.share a:hover {
-  background: white;
-  border: 1px solid red;
-  color: red;
-}
