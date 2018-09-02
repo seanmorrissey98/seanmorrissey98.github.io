@@ -37,7 +37,7 @@ body {
 }
 
 #banner {
-  background-image: url("banner-smozey..jpeg");
+  background-image: url(banner-smozey..jpeg);
   background-size: cover;
   background-position: bottom center;
   height: 700px;
