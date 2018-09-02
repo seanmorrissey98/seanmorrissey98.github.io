@@ -30,6 +30,12 @@ body {
   letter-spacing: 4px;
 }
 
+.navigation  li.other {
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+}
+
 #banner {
   background-image: url("banner-smozey..jpeg");
   background-size: cover;
