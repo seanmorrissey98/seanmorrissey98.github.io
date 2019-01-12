@@ -18,7 +18,6 @@ body {
 
 .navigation li {
   float: left;
-
 }
 
 .navigation li a {
@@ -93,3 +92,54 @@ p {
   margin-top: 60px;
   padding: 10px 20px;
 }
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+}
+
+.footer li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.footer li a:hover {
+  background-color: #333;
+}
+
+.footer .copyright {
+  color: #333;
+}
+
+.footer .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.footer .fa:hover {
+  opacity: 0.7;
+}
+
+.footer .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.footer .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.footer .fa li{
+  float: left;
+}
+
