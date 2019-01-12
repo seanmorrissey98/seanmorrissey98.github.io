@@ -6,9 +6,8 @@ body {
 }
 
 .navigation ul {
-  background-color: black;
-  position: fixed;
   overflow: hidden;
+  background-color: black;
 }
 
 .navigation li {
