@@ -17,7 +17,7 @@ body {
 }
 
 .navigation li {
-  float: left;
+  display: inline;
 }
 
 .navigation li a {
@@ -140,6 +140,6 @@ p {
 }
 
 .footer .fa li{
-  float: left;
+  display: inline;
 }
 
