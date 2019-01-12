@@ -6,34 +6,35 @@ body {
 }
 
 .navigation ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  text-align: center;
+  width: 25%;
+  background-color: black;
+  height: 100%; /* Full height */
+  position: fixed;
+  overflow: auto;
 }
 
 .navigation li {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+  float: left;
+
 }
 
-.navigation a{
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.navigation  li.logo {
-  color: black;
-  font-size: 18px;
-  font-weight: 700;
-  letter-spacing: 4px;
+.navigation li a:hover {
+  background-color: #333;
 }
 
-.navigation  li.other {
-  font-weight: 100;
-  letter-spacing: 2px;
-  padding: 20px;
+.navigation .current {
+  background-color: red;
 }
 
 #banner {
@@ -92,4 +93,3 @@ p {
   margin-top: 60px;
   padding: 10px 20px;
 }
-
