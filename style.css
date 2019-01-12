@@ -92,7 +92,7 @@ p {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
+  width: 100%;
   background-color: black;
 }
 
@@ -107,14 +107,19 @@ p {
   background-color: #333;
 }
 
-.footer .copyright {
+.footer .copyrightOne .copyright {
   color: #333;
+}
+
+.footer .copyrightOne .copyright {
+  background-color: black;
 }
 
 .footer .fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
+
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -124,17 +129,22 @@ p {
   opacity: 0.7;
 }
 
-.footer .fa-facebook {
+.footer .fa .fa-facebook {
   background: #3B5998;
   color: white;
+
+  width: 30px;
+  height: 30 px;
 }
 
-.footer .fa-twitter {
+.footer .fa .fa-twitter {
   background: #55ACEE;
   color: white;
+
+  width: 30px;
+  height: 30 px;
 }
 
 .footer .fa li{
-  display: inline;
+  float: left;
 }
-
