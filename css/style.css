@@ -88,6 +88,11 @@ body,html{
 	float:left;
 }
 
+.block .box1{
+	padding-top:45px;
+	padding-left:60px;
+}
+
 .block .box4{
 	height:190px;
 	padding: 10px 10px;
