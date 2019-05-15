@@ -2,7 +2,6 @@ body,html{
   background-color: white;
   height: 100%;
   margin:0;
-  font:300 14px/23px Lato, sans-serif;
 }
 
 .sample
@@ -88,6 +87,13 @@ body,html{
 	float:left;
 }
 
+.blocker{
+	width:45%;
+	box-sizing: border-box;
+	height:1px;
+	float:left;
+}
+
 .block .box1{
 	padding-top:45px;
 	padding-left:60px;
@@ -145,10 +151,10 @@ body,html{
 	height:190px;
 }
 
-.grey_spacebackground-color: #f5f5f0;
+.grey_space
 {
-	
-	height:25px;
+background-color: #f5f5f0;
+height:25px;
 }
 
 
@@ -223,4 +229,150 @@ hr {
   color: white;
   padding: 25px 60px;
   text-decoration: none;
+}
+
+.main img{
+	float:right;
+	padding-right:40px;
+	border-radius: 15px;
+}
+
+.main ul{
+	display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align:left;
+    padding-inline-start: 40px;
+}
+
+.main li
+{
+  list-style-type: square;
+  padding: 6px 0;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  text-align:left;
+}
+
+.white_space .button h6
+{
+    font-size: 60px;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.redbutton
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius:50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contactdetails h1
+{
+	font-size: 50px;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails h3
+{
+	font-size: 30px;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails h4
+{
+	font-size: 20px;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails p
+{
+	font-size: 15px;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
 }
