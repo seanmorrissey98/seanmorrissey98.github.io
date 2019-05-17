@@ -66,7 +66,7 @@ body,html{
 {
 	margin:0;
 	max-height:120px;
-	font-size:20px;
+	font-size:1.66em;
 	padding-top: 60px;
     padding-bottom: 42px;
 	padding-left:5px;
@@ -177,7 +177,7 @@ hr {
   padding: 0;
   width: 100%;
   background-color: black;
-  font-size: 12px;
+  font-size: 1em;
 }
 
 .copyright a{
@@ -187,7 +187,7 @@ hr {
   text-decoration: none;
 }
 .centertext h2{
-		font-size: 40px;
+		font-size: 3.33em;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -207,7 +207,7 @@ hr {
 }
 
 .centertext h3{
-		font-size: 30px;
+		font-size: 2.5em;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -226,8 +226,8 @@ hr {
 }
 
 .centertext p{
-	font-size: 15px;
-	text-align:center;
+	font-size: 1.25em;
+	text-align:left;
 	color:black;
 	padding-left:20px;
 	padding-bottom:10px;
@@ -242,7 +242,7 @@ hr {
 }
 
 .main h3{
-	font-size: 30px;
+	font-size: 2.5em;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -262,7 +262,7 @@ hr {
 }
 
 .main h4{
-	font-size: 20px;
+	font-size: 1.66em;
 	color:black;
 	margin-bottom: 0;
 	padding-left:20px;
@@ -283,7 +283,7 @@ hr {
 }
 
 .main p{
-	font-size: 15px;
+	font-size: 1.25em;
 	color:black;
 	padding-left:20px;
 	padding-bottom:10px;
@@ -311,7 +311,7 @@ hr {
 
 .white_space .button h6
 {
-    font-size: 60px;
+    font-size: 5em;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -342,7 +342,7 @@ hr {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.33em;
   cursor: pointer;
   border-radius:50px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -350,7 +350,7 @@ hr {
 
 .contactdetails h1
 {
-	font-size: 50px;
+	font-size: 4.16em;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -370,7 +370,7 @@ hr {
 
 .contactdetails h3
 {
-	font-size: 30px;
+	font-size: 2.5em;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -391,7 +391,7 @@ hr {
 
 .contactdetails h4
 {
-	font-size: 20px;
+	font-size: 1.66em;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -412,7 +412,7 @@ hr {
 
 .contactdetails p
 {
-	font-size: 15px;
+	font-size: 1.25em;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -432,7 +432,7 @@ hr {
 
 .white_space p
 {
-	font-size: 10px;
+	font-size: 0.83em;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -458,3 +458,61 @@ hr {
 	background-color:color: #f5f5f0;
 }
 
+.white_spaced .quote h1
+{
+    font-size: 2em;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+	text-align:center;
+	border-style:solid;
+	border-bottom-width:2px;
+	border-color:red;
+	border-radius:20px;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	position: absolute;
+	top:243px;
+	line-height:2.5;
+}
+
+.white_spaced .quoter
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color:color: #f5f5f0;
+	position:relative;
+}
+
+.white_spaced
+{
+	background-color: #f5f5f0;
+	height:513px;
+	position: relative;
+    text-align: center;
+	color:red;
+}
+
+.centertext img{
+	float:left;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius: 15px;
+	height:75px;
+	width:120px;
+}
+
+.centertext .rightimage{
+	float:right;
+	padding-left:20px;
+	padding-right:20px;
+	border-radius: 50px;
+	height:100px;
+	width:200px;
+}
