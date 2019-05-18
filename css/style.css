@@ -95,12 +95,14 @@ body,html{
 	border-left-style:solid;
 	border-left-color:#777777;
 	border-left-width:1px;
+	font-size:20px;
 }
 
 .block .box4 h5{
 	color:red;
 	text-align:left;
 	padding-inline-start: 40px;
+	font-size:25px;
 }
 
 .block .box4 .menu2 ul{
@@ -241,8 +243,8 @@ hr {
 	padding-left:20px;
 	padding-right:20px;
 	border-radius: 50px;
-	height:200px;
-	width:250px;
+	height:300px;
+	width:350px;
 }
 
 
@@ -259,7 +261,7 @@ hr {
 	{
 	margin:0;
 	max-height:120px;
-	font-size:1.25em;
+	font-size:1.15em;
 	padding-top: 60px;
     padding-bottom: 42px;
 	padding-left:5px;
@@ -539,7 +541,7 @@ hr {
 	{
 	margin:0;
 	max-height:120px;
-	font-size:1.25em!important;
+	font-size:1.15em!important;
 	padding-top: 60px;
     padding-bottom: 42px;
 	padding-left:5px;
@@ -805,3 +807,246 @@ hr {
 	line-height:2.5;
 	}
 }
+
+ .centertext p{
+	font-size: 2.5em;
+	text-align:left;
+	color:black;
+	padding-left:20px;
+	padding-bottom:10px;
+	}	
+
+.copyright {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  font-size: 2em;
+	}
+
+.centertext h2{
+		font-size: 4.33em;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+
+.centertext h3{
+	font-size: 3.5em;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.main h3{
+	font-size: 3.5em;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.main h4{
+	font-size: 2.66em;
+	color:black;
+	margin-bottom: 0;
+	padding-left:20px;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: left;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.main p{
+	font-size: 2.5em;
+	color:black;
+	padding-left:20px;
+	padding-bottom:10px;
+	}
+	
+	.white_space .button h6
+{
+    font-size: 5em;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.redbutton
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.33em;
+  cursor: pointer;
+  border-radius:50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	}
+	
+	.contactdetails h1
+{
+	font-size: 5.16em;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.contactdetails h3
+{
+	font-size: 3.5em;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.contactdetails h4
+{
+	font-size: 2.66em;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.contactdetails p
+{
+	font-size: 2.5em;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
+	.white_space p
+{
+	font-size: 2.25em;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+	}
+	
