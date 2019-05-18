@@ -1,3 +1,4 @@
+
 body,html{
   background-color: white;
   height: 100%;
@@ -62,7 +63,18 @@ body,html{
 	text-decoration:none;
 }
 
-
+.sample .rectangle .third3 .menu1 a
+{
+	margin:0;
+	max-height:120px;
+	font-size:1.75vw;
+	padding-top: 60px;
+    padding-bottom: 42px;
+	padding-left:5px;
+	padding-right:5px;
+	color: white;
+	text-decoration:none;
+}
 
 .sample .rectangle .third3 a:hover
 {
@@ -161,6 +173,13 @@ hr {
   width: 40%;
 }
 
+.copyright {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: black;
+  font-size: 1.3vw;
+}
 
 .copyright a{
   display: block;
@@ -168,6 +187,45 @@ hr {
   padding: 25px 60px;
   text-decoration: none;
 }
+.centertext h2{
+		font-size: 5.5vw;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.centertext h3{
+		font-size: 4vw;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
 
 .main img{
 	float:right;
@@ -177,6 +235,53 @@ hr {
 	width:400px;
 }
 
+.main h3{
+	font-size: 4vw;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.main h4{
+	font-size: 2.5vw;
+	color:black;
+	margin-bottom: 0;
+	padding-left:20px;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: left;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.main p{
+	font-size: 2.2vw;
+	color:black;
+	padding-left:20px;
+	padding-bottom:10px;
+}
 
 .main ul{
 	display: block;
@@ -198,6 +303,145 @@ hr {
   text-align:left;
 }
 
+.white_space .button h6
+{
+    font-size: 5.2vw;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.redbutton
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.9vw;
+  cursor: pointer;
+  border-radius:50px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contactdetails h1
+{
+	font-size: 7vw;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails h3
+{
+	font-size:4vw;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails h4
+{
+	font-size: 2.5vw;
+	color:red;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+.contactdetails p
+{
+	font-size: 2.2vw;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
+
+
+.white_space p
+{
+	font-size: 1.75vw;
+	margin-bottom: 0;
+	display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+	text-align: center;
+	position: relative;
+    z-index: 10;
+    overflow: hidden;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: keep-all;
+    line-break: loose;
+}
 
 .white_space .centeredimage
 {
@@ -208,6 +452,28 @@ hr {
 	background-color:color: #f5f5f0;
 }
 
+.white_spaced .quote h1
+{
+    font-size: 3vw;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+	text-align:center;
+	border-style:solid;
+	border-bottom-width:2px;
+	border-color:red;
+	border-radius:20px;
+    margin-block-start: 0.0em;
+    margin-block-end: 0.0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	position: absolute;
+	top:243px;
+	line-height:2.5;
+}
 
 .white_spaced .quoter
 {
@@ -245,563 +511,10 @@ hr {
 	width:250px;
 }
 
-
-@media (min-width: 724px) {
     .centertext p{
-	font-size: 1.5em;
+	font-size: 2.2vw;
 	text-align:left;
 	color:black;
 	padding-left:20px;
 	padding-bottom:10px;
-	}	
-
-	.sample .rectangle .third3 .menu1 a
-	{
-	margin:0;
-	max-height:120px;
-	font-size:1.25em;
-	padding-top: 60px;
-    padding-bottom: 42px;
-	padding-left:5px;
-	padding-right:5px;
-	color: white;
-	text-decoration:none;
-	}
-
-.copyright {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: black;
-  font-size: 1em;
-	}
-
-.centertext h2{
-		font-size: 3.33em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-
-.centertext h3{
-	font-size: 2.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main h3{
-	font-size: 2.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main h4{
-	font-size: 1.66em;
-	color:black;
-	margin-bottom: 0;
-	padding-left:20px;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: left;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main p{
-	font-size: 1.5em;
-	color:black;
-	padding-left:20px;
-	padding-bottom:10px;
-	}
-	
-	.white_space .button h6
-{
-    font-size: 4em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.redbutton
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.33em;
-  cursor: pointer;
-  border-radius:50px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-	}
-	
-	.contactdetails h1
-{
-	font-size: 4.16em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails h3
-{
-	font-size: 2.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails h4
-{
-	font-size: 1.66em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails p
-{
-	font-size: 1.5em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.white_space p
-{
-	font-size: 1.25em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.white_spaced .quote h1
-{
-    font-size: 2em;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-	text-align:center;
-	border-style:solid;
-	border-bottom-width:2px;
-	border-color:red;
-	border-radius:20px;
-    margin-block-start: 0.0em;
-    margin-block-end: 0.0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	position: absolute;
-	top:243px;
-	line-height:2.5;
-	}
-}
-
-@media (max-width: 600px) {
- .centertext p{
-	font-size: 2.5em;
-	text-align:left;
-	color:black;
-	padding-left:20px;
-	padding-bottom:10px;
-	}	
-
-	.sample .rectangle .third3 .menu1 a
-	{
-	margin:0;
-	max-height:120px;
-	font-size:1.25em;
-	padding-top: 60px;
-    padding-bottom: 42px;
-	padding-left:5px;
-	padding-right:5px;
-	color: white;
-	text-decoration:none;
-	}
-
-.copyright {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: black;
-  font-size: 2em;
-	}
-
-.centertext h2{
-		font-size: 4.33em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-
-.centertext h3{
-	font-size: 3.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main h3{
-	font-size: 3.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main h4{
-	font-size: 2.66em;
-	color:black;
-	margin-bottom: 0;
-	padding-left:20px;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: left;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.main p{
-	font-size: 2.5em;
-	color:black;
-	padding-left:20px;
-	padding-bottom:10px;
-	}
-	
-	.white_space .button h6
-{
-    font-size: 5em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.redbutton
-{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  background-color: red;
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 2.33em;
-  cursor: pointer;
-  border-radius:50px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-	}
-	
-	.contactdetails h1
-{
-	font-size: 5.16em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails h3
-{
-	font-size: 3.5em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails h4
-{
-	font-size: 2.66em;
-	color:red;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.contactdetails p
-{
-	font-size: 2.5em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.white_space p
-{
-	font-size: 2.25em;
-	margin-bottom: 0;
-	display: block;
-    margin-block-start: 1.67em;
-    margin-block-end: 1.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-	text-align: center;
-	position: relative;
-    z-index: 10;
-    overflow: hidden;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: keep-all;
-    line-break: loose;
-	}
-	
-	.white_spaced .quote h1
-{
-    font-size: 3em;
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-weight: bold;
-	text-align:center;
-	border-style:solid;
-	border-bottom-width:2px;
-	border-color:red;
-	border-radius:20px;
-    margin-block-start: 0.0em;
-    margin-block-end: 0.0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-	position: absolute;
-	top:243px;
-	line-height:2.5;
-	}
 }
