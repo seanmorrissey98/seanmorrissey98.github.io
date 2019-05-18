@@ -67,7 +67,7 @@ body,html{
 {
 	margin:0;
 	max-height:120px;
-	font-size:1.25vw;
+	font-size:1.75vw;
 	padding-top: 60px;
     padding-bottom: 42px;
 	padding-left:5px;
@@ -178,7 +178,7 @@ hr {
   padding: 0;
   width: 100%;
   background-color: black;
-  font-size: .80vw;
+  font-size: 1.3vw;
 }
 
 .copyright a{
@@ -188,7 +188,7 @@ hr {
   text-decoration: none;
 }
 .centertext h2{
-		font-size: 4.75vw;
+		font-size: 5.5vw;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -208,7 +208,7 @@ hr {
 }
 
 .centertext h3{
-		font-size: 3.5vw;
+		font-size: 4vw;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -236,7 +236,7 @@ hr {
 }
 
 .main h3{
-	font-size: 3.5vw;
+	font-size: 4vw;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -256,7 +256,7 @@ hr {
 }
 
 .main h4{
-	font-size: 2vw;
+	font-size: 2.5vw;
 	color:black;
 	margin-bottom: 0;
 	padding-left:20px;
@@ -277,7 +277,7 @@ hr {
 }
 
 .main p{
-	font-size: 1.7vw;
+	font-size: 2.2vw;
 	color:black;
 	padding-left:20px;
 	padding-bottom:10px;
@@ -305,7 +305,7 @@ hr {
 
 .white_space .button h6
 {
-    font-size: 4.7vw;
+    font-size: 5.2vw;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -336,7 +336,7 @@ hr {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.4vw;
+  font-size: 1.9vw;
   cursor: pointer;
   border-radius:50px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -344,7 +344,7 @@ hr {
 
 .contactdetails h1
 {
-	font-size: 4.75vw;
+	font-size: 7vw;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -364,7 +364,7 @@ hr {
 
 .contactdetails h3
 {
-	font-size:3.5vw;
+	font-size:4vw;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -385,7 +385,7 @@ hr {
 
 .contactdetails h4
 {
-	font-size: 2vw;
+	font-size: 2.5vw;
 	color:red;
 	margin-bottom: 0;
 	display: block;
@@ -406,7 +406,7 @@ hr {
 
 .contactdetails p
 {
-	font-size: 1.7vw;
+	font-size: 2.2vw;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -426,7 +426,7 @@ hr {
 
 .white_space p
 {
-	font-size: 1.25vw;
+	font-size: 1.75vw;
 	margin-bottom: 0;
 	display: block;
     margin-block-start: 1.67em;
@@ -454,7 +454,7 @@ hr {
 
 .white_spaced .quote h1
 {
-    font-size: 2.6vw;
+    font-size: 3vw;
 	display: block;
     margin-left: auto;
     margin-right: auto;
@@ -512,7 +512,7 @@ hr {
 }
 
     .centertext p{
-	font-size: 1.7vw;
+	font-size: 2.2vw;
 	text-align:left;
 	color:black;
 	padding-left:20px;
