@@ -1,0 +1,30 @@
+.navbar.navbar-dark.navbar-expand-md.fixed-top.bg-dark {
+  background-color: #000!important;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #fff;
+  /*font-size: 13px;*/
+}
+
+.navbar-dark .navbar-brand .logo {
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand .logo {
+  /*background-image: logo.jpg!important;*/
+  color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+}
+
+body {
+  padding-top: 100px;
+}
+
+.text-block {
+  padding-top: 100px;
+  text-align: center;
+}
+
