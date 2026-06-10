@@ -1,89 +1,165 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>shasaclinic</title>
-    <link rel="icon" type="image/png" sizes="15x15" href="assets/img/fave.favicon.png">
-    <link rel="icon" type="image/png" sizes="15x15" href="assets/img/fave.favicon.png">
-    <link rel="icon" type="image/png" sizes="15x15" href="assets/img/fave.favicon.png">
-    <link rel="icon" type="image/png" sizes="15x15" href="assets/img/fave.favicon.png">
-    <link rel="icon" type="image/png" sizes="15x15" href="assets/img/fave.favicon.png">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/Article-Clean.css">
-    <link rel="stylesheet" href="assets/css/Article-List.css">
-    <link rel="stylesheet" href="assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact — The Shasa Clinic</title>
+    <meta name="description" content="Get in touch with Kieron Morrissey at The Shasa Clinic, Edermine, Enniscorthy, County Wexford. Phone, email, address and directions.">
+    <meta name="theme-color" content="#F5F1EA">
+    <link rel="icon" type="image/png" href="assets/img/fave.favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500&family=Inter:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="assets/css/main.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-dark navbar-expand-md fixed-top bg-dark">
-        <div class="container"><img class="float-right d-xl-flex align-items-end align-content-end align-self-end justify-content-xl-end" src="assets/img/sampler.png" height="100"><a class="navbar-brand d-xl-flex logo" href="#"></a><button data-toggle="collapse" class="navbar-toggler"
-                data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="nav navbar-nav flex-grow-1 justify-content-end">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="Services.html">Services</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="Contact.html">Contact Us</a></li>
+
+<nav class="nav" aria-label="Primary">
+    <div class="container nav__inner">
+        <a href="index.html" class="brand" aria-label="The Shasa Clinic — Home">
+            <span class="brand__mark" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                    <path d="M12 5v14M5 12h14"/>
+                </svg>
+            </span>
+            <span>The Shasa Clinic</span>
+        </a>
+        <button class="nav__toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-menu">
+            <span></span>
+        </button>
+        <ul class="nav__list" id="nav-menu" role="list">
+            <li><a href="index.html" class="nav__link">Home</a></li>
+            <li><a href="Services.html" class="nav__link">Services</a></li>
+            <li><a href="Contact.html" class="nav__link is-active">Contact</a></li>
+            <li><a href="#contact" class="nav__cta">Book a Consultation</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <header class="page-header">
+        <div class="container">
+            <span class="eyebrow reveal">Contact</span>
+            <h1 class="reveal" data-delay="1">Let's start a conversation.</h1>
+            <p class="lead reveal" data-delay="2">
+                Get in touch with any questions, or to arrange your first appointment at The Shasa Clinic.
+            </p>
+        </div>
+    </header>
+
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+
+                <div class="contact-card reveal">
+                    <div class="contact-detail">
+                        <p class="contact-detail__label">Address</p>
+                        <address>
+                            The Shasa Clinic<br>
+                            Glenteige Road, Edermine<br>
+                            Enniscorthy, County Wexford<br>
+                            Y21 V9Y7, Ireland
+                        </address>
+                    </div>
+
+                    <div class="contact-detail">
+                        <p class="contact-detail__label">Telephone</p>
+                        <p class="contact-detail__value">
+                            <a href="tel:+353870670796">087 067 0796</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <p class="contact-detail__label">Email</p>
+                        <p class="contact-detail__value">
+                            <a href="mailto:shasaclinic@gmail.com">shasaclinic@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-detail">
+                        <p class="contact-detail__label">Hours</p>
+                        <p class="contact-detail__value" style="font-size: var(--step-0); font-family: var(--font-body); color: var(--color-ink-soft); line-height: 1.7;">
+                            By appointment only.<br>
+                            Initial consultations approx. 1½ hours.<br>
+                            Follow-ups approx. 1 hour.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="map reveal" data-delay="1">
+                    <iframe
+                        src="https://www.google.com/maps?q=Glenteige%20Road%2C%20Edermine%2C%20Enniscorthy%2C%20County%20Wexford%2C%20Y21%20V9Y7&z=13&output=embed"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Map showing The Shasa Clinic in Edermine, County Wexford"
+                        allowfullscreen></iframe>
+                </div>
+
+            </div>
+
+            <aside class="disclaimer reveal">
+                <p><strong>Please note:</strong> Kieron Morrissey is not a medical doctor and does not make medical diagnoses or provide medical advice or care. Applied Biomagnetic Therapy is not a substitute for medical care. Clients should see a medical doctor for follow-up care if needed, and should view the therapy provided here as additional to the medical care given by your doctor or primary health-care professional.</p>
+            </aside>
+        </div>
+    </section>
+
+    <section class="cta-band">
+        <div class="container cta-band__inner">
+            <div class="reveal">
+                <span class="eyebrow">Or call directly</span>
+                <h2 style="margin-top: 1rem;">Prefer a quick chat?</h2>
+                <p>Pick up the phone — happy to answer any questions before you book.</p>
+            </div>
+            <div class="cta-band__actions reveal" data-delay="1">
+                <a class="btn btn--accent" href="tel:+353870670796">
+                    Call 087 067 0796
+                    <span class="btn__arrow" aria-hidden="true">&rarr;</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer__grid">
+            <div>
+                <a href="index.html" class="footer__brand">
+                    <span class="brand__mark" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+                            <path d="M12 5v14M5 12h14"/>
+                        </svg>
+                    </span>
+                    The Shasa Clinic
+                </a>
+                <p class="footer__tagline">Alleviating the symptoms of Lyme disease and other chronic health issues.</p>
+            </div>
+            <div>
+                <h4 class="footer__heading">Services</h4>
+                <ul class="footer__list" role="list">
+                    <li><a href="Services.html#treatment">Treatment</a></li>
+                    <li><a href="Services.html#benefit">The Benefits</a></li>
+                    <li><a href="Services.html#scan">Bioresonance Scan</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer__heading">Visit</h4>
+                <ul class="footer__list" role="list">
+                    <li><a href="Services.html#purpose">Our Purpose</a></li>
+                    <li><a href="Services.html#client">Client Stories</a></li>
+                    <li><a href="Contact.html">Contact Us</a></li>
                 </ul>
             </div>
         </div>
-    </nav>
-    <div class="article-clean">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                    <div class="intro"></div>
-                    <div class="text">
-                        <h1 class="text-center text-dark"><br>If you have any questions please get in contact with us.<br></h1>
-                        <h2 class="text-center text-danger">Address<br></h2>
-                        <p class="text-center d-flex justify-content-center"><br><strong>The Shasa Clinic,&nbsp;</strong><br><strong>Glenteige Road, Edermine,</strong><br><strong>Enniscorthy, County Wexford. Y21 V9Y7</strong><br></p>
-                        <h2 class="text-center text-danger">Telephone:<br></h2>
-                        <p class="text-center d-flex justify-content-center"><br><strong>0870670796</strong><br></p>
-                        <h2 class="text-center text-danger">Email:<br></h2>
-                        <p class="text-center d-flex justify-content-center"><strong>Shasaclinic@gmail.com</strong><br></p>
-                        <p class="text-center d-flex justify-content-center"><strong>Please note: Kieron Morrissey is not a medical doctor and he does not make a medical diagnosis or provide medical advice or care. Applied Biomagnetic Therapy is not a substitute for medical care. His clients should see a medical doctor for follow up care if needed and should view the therapy he provides as additional to the medical care provided by your doctor or primary health care professional.</strong><br></p>
-                        <figure></figure>
-                    </div>
-                </div>
-            </div>
+        <div class="footer__bottom">
+            <span>&copy; <span data-year>2026</span> The Shasa Clinic. All rights reserved.</span>
+            <span>Edermine · County Wexford · Ireland</span>
         </div>
     </div>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="Services.html#treatment">Treatment</a></li>
-                            <li><a href="Services.html#benefit">The benefits</a></li>
-                            <li><a href="Services.html#scan">The Bioresonance Scan</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="Services.html#purpose">Purpose and objectives</a></li>
-                            <li><a href="Services.html#client">What Clients Say</a></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>The Shasa Clinic</h3>
-                        <p class="text-center"><br><strong>ALLEVIATING THE SYMPTOMS OF LYME DISEASE AND OTHER CHRONIC HEALTH ISSUES</strong><br><br></p>
-                    </div>
-                    <div class="col item social"><a><i class="icon ion-social-facebook"></i></a><a><i class="icon ion-social-twitter"></i></a><a><i class="icon ion-social-snapchat"></i></a><a><i class="icon ion-social-instagram"></i></a></div>
-                </div>
-                <p class="copyright">The Shasa Clinic © 2019</p>
-            </div>
-        </footer>
-    </div>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+</footer>
 
+<script src="assets/js/main.js" defer></script>
+</body>
 </html>
