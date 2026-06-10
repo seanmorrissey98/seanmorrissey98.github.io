@@ -606,8 +606,8 @@ blockquote.callout {
     grid-template-columns: 0.85fr 1.15fr;
     gap: var(--space-2xl);
   }
+  .story__intro { position: sticky; top: 6rem; }
 }
-.story__intro { position: sticky; top: 6rem; }
 .story__intro .eyebrow { display: inline-block; margin-bottom: 1rem; }
 .story__intro h2 { margin-bottom: 1.25rem; }
 
@@ -673,8 +673,8 @@ blockquote.callout {
     grid-template-columns: 1fr 2fr;
     gap: var(--space-2xl);
   }
+  .service-section__head { position: sticky; top: 6rem; }
 }
-.service-section__head { position: sticky; top: 6rem; }
 .service-section__head .eyebrow { display: block; margin-bottom: 1rem; }
 .service-section__head h2 { font-size: var(--step-3); }
 .service-section__body { max-width: 36rem; }
